@@ -10,8 +10,13 @@
 -[Contributors](#Contributors)  
 
 ## Description  
-Type here
-[Video Link]()
+Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes.  
+```md
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
+```  
+[Video Link]()  
 
 ## Images  
 ![Img 1]()  
