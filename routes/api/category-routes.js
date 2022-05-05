@@ -44,7 +44,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:category_name', (req, res) => {
+router.put('/:id', (req, res) => {
   //Calls the update method on the Book model
   Category.update(
     {
@@ -54,7 +54,7 @@ router.put('/:category_name', (req, res) => {
     {
       // Gets a book based on the book_id given in the request parameters
       where: {
-        category_name: req.params.category_name,
+        id: req.params.id,
       },
     }
   )

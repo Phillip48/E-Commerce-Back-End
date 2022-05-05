@@ -37,7 +37,7 @@ router.get('/:id', async (req, res) => {
 });
 
 // create new product
-router.post('/', async (req, res) => {
+router.post('/', (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
@@ -67,6 +67,32 @@ router.post('/', async (req, res) => {
       res.status(400).json(err);
     });
 });
+
+// router.put('/:id', async (req, res) => {
+//   // update a tag's name by its `id` value
+//   Product.update(
+//     {
+//       // All the fields you can update and the data attached to the request body.
+//       product_name: req.body.product_name,
+//       price: req.body.price,
+//       stock: req.body.stock,
+//       category_id: req.body.category_id
+//     },
+//     {
+//       // Gets a book based on the book_id given in the request parameters
+//       where: {
+//         id: req.params.id,
+//       },
+//     }
+//   )
+//     .then((updatedCategory) => {
+//       res.json(updatedCategory);
+//     })
+//     .catch((err) => {
+//       console.log(err);
+//       res.json(err);
+//     });
+// });
 
 // update product
 router.put('/:id', async (req, res) => {

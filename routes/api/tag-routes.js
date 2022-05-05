@@ -54,7 +54,7 @@ router.put('/:id', async (req, res) => {
     {
       // Gets a book based on the book_id given in the request parameters
       where: {
-        tag_name: req.params.tag_name,
+        id: req.params.id,
       },
     }
   )
