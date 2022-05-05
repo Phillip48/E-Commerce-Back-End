@@ -18,15 +18,16 @@ SO THAT my company can compete with other e-commerce companies
 ```  
 [Video Link]()  
 
-## Images  
-![Img 1]()  
-  
-![Img 2]()  
-  
-![Img 3]()   
-  
-![Img 4]()  
-  
+## Images 
+### View All 
+![Img 1]('./../img/ecom1.png)  
+![Img 2](./img/ecom2.png)  
+![Img 3](./img/ecom3.png)   
+### View By ID  
+![Img 4](./img/ecomget1.png)  
+![Img 5](./img/ecomget2.png)  
+![Img 6](./img/ecomget3.png)  
+### View All Other Methods In The Video!
 
 ## Installation     
 `git clone git@github.com:Phillip48/E-Commerce-Back-End.git`  
